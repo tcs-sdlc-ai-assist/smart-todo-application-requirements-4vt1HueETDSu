@@ -1,0 +1,100 @@
+.container {
+  max-width: 600px;
+  margin: 32px auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  padding: 24px;
+}
+
+.nav {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 22px;
+}
+
+.navButton {
+  flex: 1;
+  padding: 10px 0;
+  border: none;
+  border-radius: 4px;
+  background: #eee;
+  color: #222;
+  font-weight: 400;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.14s, color 0.14s;
+}
+
+.navButtonActive {
+  background: #3498db;
+  color: #fff;
+  font-weight: 600;
+}
+
+.heading {
+  margin: 0 0 18px 0;
+  font-size: 22px;
+}
+
+.loading {
+  color: #3498db;
+  margin-bottom: 12px;
+}
+
+.error {
+  color: #e74c3c;
+  margin-bottom: 12px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.empty {
+  color: #888;
+  padding: 16px;
+  text-align: center;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.checkbox {
+  margin-right: 12px;
+}
+
+.content {
+  flex: 1;
+}
+
+.title {
+  text-decoration: none;
+  color: #222;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.titleCompleted {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.meta {
+  font-size: 13px;
+  color: #555;
+  margin-top: 2px;
+}
+
+@media (max-width: 700px) {
+  .container {
+    max-width: 98vw;
+    padding: 12px;
+  }
+}
